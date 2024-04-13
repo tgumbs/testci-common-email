@@ -29,3 +29,4 @@ jobs:
         architecture: x64
         cache: maven
     - name: mvn clean test
+    - run: mvn clean test
